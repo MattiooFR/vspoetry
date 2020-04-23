@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "vspoetry"
-version = "0.1.0"
+version = "0.2.0"
 description = "Automatically save the running poetry virtual environmment to your vscode settings.json"
 authors = ["MattiooFR <dugue.mathieu@gmail.com>"]
 keywords = ["vscode", "poetry"]
