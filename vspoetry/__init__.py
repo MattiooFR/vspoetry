@@ -5,7 +5,7 @@ from pathlib import Path
 
 def main():
     venv_path = subprocess.check_output("poetry env info --path".split())
-    venv_path = venv_path.decode("UTF-8")
+    venv_path = venv_path.decode("UTF-8").strip()
 
     settings = dict()
 
